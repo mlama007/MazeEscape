@@ -1,0 +1,26 @@
+body {
+    background: url('https://cdn.pixabay.com/photo/2013/12/17/16/50/crypt-229934_1280.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 300px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 5px;
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+button:hover{
+    border: 5px solid darkgreen;
+    color: darkgreen;
+    opacity: 0.5;
+}
